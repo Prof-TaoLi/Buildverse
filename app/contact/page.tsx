@@ -72,9 +72,9 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-bold">Address</h3>
                   <p className="text-muted-foreground">
-                    2550 El Camino Real
+                    2311 Sunny Vista Dr.
                     <br />
-                    Santa Clara, CA 95050
+                    San Jose, CA 95128
                     <br />
                     United States
                   </p>
@@ -91,7 +91,7 @@ export default function ContactPage() {
                 <Mail className="mr-4 h-6 w-6 text-bright-orange" />
                 <div>
                   <h3 className="font-bold">Email</h3>
-                  <p className="text-muted-foreground">info@buildverse.com</p>
+                  <p className="text-muted-foreground">buildverse.ca@gmail.com</p>
                 </div>
               </div>
             </div>

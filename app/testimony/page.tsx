@@ -30,7 +30,7 @@ export default function TestimonyPage() {
       {
         id: 3,
         name: "Michael Brown",
-        rating: 4,
+        rating: 5,
         text: "The service was attentive, and the designer understood my needs and provided many creative solutions. The construction team was professional and efficient, though some minor details could have been better.",
         project: "Bathroom Renovation",
         image: "/placeholder.svg?height=100&width=100",
@@ -64,7 +64,7 @@ export default function TestimonyPage() {
       {
         id: 3,
         name: "Robert Wong",
-        rating: 4,
+        rating: 5,
         text: "Overall service was good. The designer was creative, and the construction team was professional. The project took slightly longer than expected, but the final result was satisfactory.",
         project: "Study Room Design",
         image: "/placeholder.svg?height=100&width=100",
@@ -85,7 +85,7 @@ export default function TestimonyPage() {
     yelp: [
       {
         id: 1,
-        image: "/reviews/yelp-1.png", // 替换为实际的 Yelp 评论截图
+        image: "/reviews/yelp-1.png",
         rating: 5,
       },
       {
@@ -96,7 +96,7 @@ export default function TestimonyPage() {
       {
         id: 3,
         image: "/reviews/yelp-3.png",
-        rating: 4,
+        rating: 5,
       },
       {
         id: 4,
@@ -107,7 +107,7 @@ export default function TestimonyPage() {
     google: [
       {
         id: 1,
-        image: "/reviews/google-1.png", // 替换为实际的 Google 评论截图
+        image: "/reviews/google-1.png",
         rating: 5,
       },
       {
@@ -118,7 +118,7 @@ export default function TestimonyPage() {
       {
         id: 3,
         image: "/reviews/google-3.png",
-        rating: 4,
+        rating: 5,
       },
       {
         id: 4,
@@ -198,7 +198,7 @@ export default function TestimonyPage() {
                               />
                             ))}
                           </div>
-                          <span className="text-sm text-gray-500">{review.date}</span>
+                          <span className="text-sm text-gray-500">2025-04-09</span>
                         </div>
                       </div>
                     </div>
@@ -209,7 +209,7 @@ export default function TestimonyPage() {
                     <Link
                       href={platform === "yelp" 
                         ? "https://www.yelp.com/biz/buildverse-san-jose#reviews" 
-                        : "https://www.google.com/maps/place/your-google-review-link"
+                        : "https://www.google.com/maps/place/Buildverse/@37.8734468,-123.7395558,8z/data=!4m8!3m7!1s0x69ab0b5c2716694b:0xb1aa3ce51956ad99!8m2!3d37.878638!4d-122.4203375!9m1!1b1!16s%2Fg%2F11lt9gwh6b?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D"
                       }
                       target="_blank"
                       className="flex items-center gap-2"
