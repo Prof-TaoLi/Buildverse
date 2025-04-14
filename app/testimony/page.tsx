@@ -209,7 +209,7 @@ export default function TestimonyPage() {
                     <Link
                       href={platform === "yelp" 
                         ? "https://www.yelp.com/biz/buildverse-san-jose#reviews" 
-                        : "https://www.google.com/maps/place/Buildverse/@37.8734468,-123.7395558,8z/data=!4m8!3m7!1s0x69ab0b5c2716694b:0xb1aa3ce51956ad99!8m2!3d37.878638!4d-122.4203375!9m1!1b1!16s%2Fg%2F11lt9gwh6b?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D"
+                        : "https://www.google.com/search?sca_esv=bfd7f0276b7e69c9&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzUpr80yl43Yxv95LI6T_W8a1xB1nWSigKA89eln1SYd3xc80AXmy2evsK9qSPwQUIBoV_cUmtwH4Flr8fD-fFlttaFbo&q=Buildverse+Reviews&sa=X&ved=2ahUKEwibhubfo9iMAxWbODQIHSVWAo0Q0bkNegQIMhAD&biw=1512&bih=831&dpr=2"
                       }
                       target="_blank"
                       className="flex items-center gap-2"
