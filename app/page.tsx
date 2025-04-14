@@ -52,6 +52,10 @@ export default function Home() {
           </h1>
           <p className="mb-8 max-w-2xl text-xl text-gray-300 sm:text-2xl">
             From concept to creation, we bring your vision to life with precision and passion.
+            <br />
+            <span className="inline-block mt-4 text-xl text-white font-semibold bg-bright-orange/20 px-4 py-2 rounded-full shadow-sm">
+              Proudly serving the San Francisco Bay Area
+            </span>
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button
@@ -233,4 +237,3 @@ export default function Home() {
     </div>
   )
 }
-

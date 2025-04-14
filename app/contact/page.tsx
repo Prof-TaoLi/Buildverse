@@ -94,6 +94,13 @@ export default function ContactPage() {
                   <p className="text-muted-foreground">buildverse.ca@gmail.com</p>
                 </div>
               </div>
+              <div className="flex items-center justify-center">
+                <MapPin className="mr-4 h-6 w-6 text-bright-orange" />
+                <div>
+                  <h3 className="font-bold">Service Area</h3>
+                  <p className="text-muted-foreground">San Francisco Bay Area</p>
+                </div>
+              </div>
             </div>
 
             <h2 className="mb-6 text-3xl font-bold tracking-tight">Business Hours</h2>
@@ -165,4 +172,3 @@ export default function ContactPage() {
     </div>
   )
 }
-
