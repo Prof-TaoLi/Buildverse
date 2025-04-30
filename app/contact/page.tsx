@@ -91,7 +91,7 @@ export default function ContactPage() {
                 <Mail className="mr-4 h-6 w-6 text-bright-orange" />
                 <div>
                   <h3 className="font-bold">Email</h3>
-                  <p className="text-muted-foreground">buildverse.ca@gmail.com</p>
+                  <p className="text-muted-foreground">buildverse@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center justify-center">
