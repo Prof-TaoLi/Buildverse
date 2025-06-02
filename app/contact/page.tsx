@@ -67,6 +67,7 @@ export default function ContactPage() {
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="mb-6 text-3xl font-bold tracking-tight">Contact Information</h2>
             <div className="mb-8 space-y-4">
+              {/*
               <div className="flex items-center justify-center">
                 <MapPin className="mr-4 h-6 w-6 text-bright-orange" />
                 <div>
@@ -80,6 +81,7 @@ export default function ContactPage() {
                   </p>
                 </div>
               </div>
+              */}
               <div className="flex items-center justify-center">
                 <Phone className="mr-4 h-6 w-6 text-bright-orange" />
                 <div>
